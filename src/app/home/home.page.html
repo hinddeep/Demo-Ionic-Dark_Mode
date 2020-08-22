@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="checkDarkMode()">Check Dark mode</ion-button>
+      {{isDarkModeOn}}
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-label>Dark Mode change Event: </ion-label>
+      {{darkmodeevent}}
+    </ion-col>
+  </ion-row>
+</ion-content>
